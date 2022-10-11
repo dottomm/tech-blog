@@ -29,49 +29,69 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 				color: #222;
 				font-size: small;
 			}
-			ul li a:visited {
+
+			.blog-links_list .blog_link{
+				transition: transform 100ms ease-in-out;
+				display: flex;
+
+			}
+
+			.blog-links_list .blog_link a{
+				justify-content: center;
+				display:flex;
+				width: 100%;
+				text-decoration: none;
+			}
+
+			.blog-links_list .blog_link:hover{
+				transform: scale(1.015);
+			}
+			
+			.blog-links_list li{
+				min-height: 6em;
+				flex-direction: column;
+				text-align: center;
+				justify-content: center;
+				margin-bottom: 1rem;
+				border:2px solid #5ca9f2;
+				background-color: #5ca9f2;
+				border-radius: 18px;
+			}
+
+			.blog-links_list li p{
+				color:#222;
+			}
+
+			
+			.blog-links_list li a:visited {
 				color: #222;
 				font-weight: bold;
 			}
 
-			section li{
-				display: flex wrap;
-				flex-direction: column;
-				padding: 2rem;
-				margin-bottom: 1rem;
-				background-color: #fff;
-				border:2px solid #5ca9f2;
-				background-color: #5ca9f2;
-
-			}
-
-			section li a:{
-				font-weight: bold;
-				color:#222;
-			}
-
-			section li p{
-				color:#222;
+			.blog-links_list li a:hover{
+				transform: scale (1.025);
 			}
 
 			form input {
-  width: 100%;
-}
-form input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
+  			width: 100%;
+			}
 
-.hidden{
-	display: none;
-}
- .btn{
-	width: 100%;
-	padding:1rem;
-	cursor: pointer;
-}
+			form input[type=text] {
+			width: 100%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			}
+
+			.hidden{
+				display: none;
+			}
+
+			.btn{
+				width: 100%;
+				padding:1rem;
+				cursor: pointer;
+			}
 
  
  .btn a:hover{
@@ -84,26 +104,20 @@ form input[type=text] {
 		<Header />
 		<main>
 			<section>
-				<ul>
+				<ul class='blog-links_list'>
 					{posts.map((post) => (
-						<li style={`background-image:url(${post.heroImg}) `}>
-							<time datetime={post.frontmatter.pubDate}>
-								{new Date(post.frontmatter.pubDate).toLocaleDateString('en-us', {
-									year: 'numeric',
-									month: 'short',
-									day: 'numeric',
-								})}
-							</time>
+						<li class='blog_link'>
+							
 							<div><a href={post.url}>{post.frontmatter.title}</a></div>
 
-							<div><p class='description'>{post.frontmatter.description}</p></div>
+							
 						</li>
 					))}
 				</ul>
 			</section>
 			<section name='form' id='form'>
 						<hr />
-						<h2>Request a Tech Tip from Tom</h2>
+						<h2>Request a Tech Tip</h2>
 						<p>If there is a technology you would like to receive Tech Tips about, let Tom know by entering the request here in the form. </p>
 						</summary>
 						<form 
@@ -128,7 +142,7 @@ form input[type=text] {
 							 -->
 							
 							<p>
-							  <label>Message: <textarea name="message" required></textarea></label>
+							  <label>Message: <textarea name="message" rows="8" required></textarea></label>
 							</p>
 							<p>
 							  <button type="submit" class='btn'>Request Tech Tip</button>

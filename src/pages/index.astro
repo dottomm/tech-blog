@@ -54,6 +54,16 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 				color:#222;
 			}
 
+			form input {
+  width: 100%;
+}
+form input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
 			
 		</style>
 	</head>
@@ -78,6 +88,34 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 					))}
 				</ul>
 			</section>
+			
+			
+				<section name='form' id='form'>
+						<hr />
+						<h2>Request a Tech Tip from Tom</h2>
+						<p>If there is a technology you would like to receive Tech Tips about, let Tom know by entering the request here in the form. </p>
+						</summary>
+						<form name="requestTip" method="POST" data-netlify="true"  action="/success">
+							<input type="hidden" name="requestTip" value="contact">
+
+							<p>
+							  <label>Your Name: <input type="text" name="name" /></label>
+							</p>
+							<!--
+								<p>
+							  <label>Your Email: <input type="email" name="email" /></label>
+							</p>
+							 -->
+							
+							<p>
+							  <label>Message: <textarea name="message"></textarea></label>
+							</p>
+							<p>
+							  <button type="submit" class='btn'>Request Tech Tip</button>
+							</p>
+						  </form>
+				
+			
 		</main>
 		<Footer />
 	</body>

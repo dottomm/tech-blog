@@ -64,6 +64,19 @@ form input[type=text] {
   box-sizing: border-box;
 }
 
+.hidden{
+	display: none;
+}
+ .btn{
+	width: 100%;
+	padding:1rem;
+	cursor: pointer;
+}
+
+ 
+ .btn a:hover{
+	background-color: #FF6347;
+}
 			
 		</style>
 	</head>
@@ -88,18 +101,25 @@ form input[type=text] {
 					))}
 				</ul>
 			</section>
-			
-			
-				<section name='form' id='form'>
+			<section name='form' id='form'>
 						<hr />
 						<h2>Request a Tech Tip from Tom</h2>
 						<p>If there is a technology you would like to receive Tech Tips about, let Tom know by entering the request here in the form. </p>
 						</summary>
-						<form name="requestTip" method="POST" data-netlify="true"  action="/success">
+						<form 
+							name="requestTip" 
+							method="POST" 
+							data-netlify="true" 
+							netlify-honeypot="bot-field" 
+							>
+							<p class="hidden">
+								<label>
+								  Don’t fill this out if you’re human: <input name="bot-field" />
+								
 							<input type="hidden" name="requestTip" value="contact">
 
 							<p>
-							  <label>Your Name: <input type="text" name="name" /></label>
+							  <label>Your Name: <input type="text" name="name" required/></label>
 							</p>
 							<!--
 								<p>
@@ -108,12 +128,12 @@ form input[type=text] {
 							 -->
 							
 							<p>
-							  <label>Message: <textarea name="message"></textarea></label>
+							  <label>Message: <textarea name="message" required></textarea></label>
 							</p>
 							<p>
 							  <button type="submit" class='btn'>Request Tech Tip</button>
 							</p>
-						  </form>
+			</form>
 				
 			
 		</main>

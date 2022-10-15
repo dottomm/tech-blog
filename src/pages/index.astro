@@ -56,8 +56,8 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 				justify-content: center;
 				margin-bottom: 1rem;
 				border:2px solid #5ca9f2;
-				background-color: #5ca9f2;
-				border-radius: 18px;
+				background-color:var(--color-secondary);
+					border-radius: 18px;
 			}
 
 			.blog-links_list li p{
@@ -95,6 +95,11 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 				cursor: pointer;
 			}
 
+			.message{
+				font-family: roboto;
+				font-size:1.3rem;
+			}
+
  
  .btn a:hover{
 	background-color: #FF6347;
@@ -120,7 +125,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 			<section name='form' id='form'>
 						<hr />
 						<h2>Request a Tech Tip</h2>
-						<p>If there is a technology you would like to receive Tech Tips about, let Tom know by entering the request here in the form. </p>
+						<p class='message'>If there is a technology you would like to receive Tech Tips about, let Tom know by entering the request here in the form. </p>
 						</summary>
 						<form 
 							name="requestTip" 

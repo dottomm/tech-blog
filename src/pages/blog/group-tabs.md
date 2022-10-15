@@ -6,7 +6,7 @@ pubDate: "Oct 10 2022"
 heroImage: "/tech-images/groupTabs.gif"
 ---
 <p class='ital'>This tip originally was posted by Suzzy Morris at NCOE</p>
-<h2>Why Group Tabs Together</h2>
+<h2>Why Group Tabs Together?</h2>
 <p>Grouping tabs together is useful if you have multiple tabs open & it becomes difficult to find a tab or to keep related tabs together. Group together by topic, project, meeting, event or web service such as Office 365.</p>
 
 <h2>Step 1: How to Create a New Group Tab</h2>

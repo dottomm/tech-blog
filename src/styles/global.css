@@ -3,8 +3,28 @@
   https://github.com/HermanMartinus/bearblog/blob/297026a877bc2ab2b3bdfbd6b9f7961c350917dd/templates/styles/blog/default.css
   License MIT: https://github.com/HermanMartinus/bearblog/blob/master/LICENSE.md
  */
+ :root {
+	/*
+	 --color-primary: #0f172a;
+	 --color-secondary: #084E75;
+	 */
+	 --color-primary: #FF6347;
+	 --color-secondary: #5ca9f2;
+   }
+
+   @font-face {
+	font-family: Roboto;
+	src: url('../Roboto/Roboto-Medium.ttf');
+  }
+
+  @font-face {
+	font-family: RobotoLight;
+	src: url('../Roboto/Roboto-Light.ttf');
+  }
+  
+ 
 body {
-	font-family: Helvetica, Verdana, Arial, sans-serif;
+	font-family: Roboto, Helvetica, Verdana, Arial, sans-serif;
 	margin: auto;
 	padding: 20px;
 	max-width: 65ch;
@@ -23,6 +43,7 @@ h5,
 h6,
 strong,
 b {
+	font-family: robotoLight;
 	color: #222;
 }
 
@@ -72,3 +93,7 @@ blockquote {
 }
 
 h2{ color: #5ca9f2}
+
+.title{
+	color:var(--color-primary);
+}

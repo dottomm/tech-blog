@@ -122,8 +122,9 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 					))}
 				</ul>
 			</section>
-			<section name='form' id='form'>
+			<section id='form'>
 						<hr />
+						<summary>
 						<h2>Request a Tech Tip</h2>
 						<p class='message'>If there is a technology you would like to receive Tech Tips about, let Tom know by entering the request here in the form. </p>
 						</summary>
@@ -135,7 +136,8 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 							>
 							<p class="hidden">
 								<label>
-								  Don’t fill this out if you’re human: <input name="bot-field" />
+								  Don’t fill this out if you’re human: <input name="bot-field" /></label>
+								  </p>
 								
 							<input type="hidden" name="requestTip" value="contact">
 
@@ -155,7 +157,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 							  <button type="submit" class='btn'>Request Tech Tip</button>
 							</p>
 			</form>
-				
+				</section>
 			
 		</main>
 		<Footer />

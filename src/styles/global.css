@@ -97,3 +97,92 @@ h2{ color: #5ca9f2}
 .title{
 	color:var(--color-primary);
 }
+
+ul {
+	list-style-type: none;
+	padding: unset;
+}
+ul li {
+	display: flex;
+	font-weight: bold;
+}
+ul li time {
+	font-style: italic;
+	color: #222;
+	font-size: small;
+}
+
+.blog-links_list .blog_link{
+	transition: transform 100ms ease-in-out;
+	display: flex;
+
+}
+
+.blog-links_list .blog_link a{
+	justify-content: center;
+	display:flex;
+	width: 100%;
+	text-decoration: none;
+	color:#222;
+
+}
+
+.blog-links_list .blog_link:hover{
+	transform: scale(1.015);
+}
+
+.blog-links_list li{
+	min-height: 6em;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	margin-bottom: 1rem;
+	border:2px solid #5ca9f2;
+	background-color:var(--color-secondary);
+		border-radius: 18px;
+}
+
+.blog-links_list li p{
+	color:#222;
+}
+
+
+.blog-links_list li a:visited {
+	color: #222;
+	font-weight: bold;
+}
+
+.blog-links_list li a:hover{
+	transform: scale (1.025);
+}
+
+form input {
+  width: 100%;
+}
+
+form input[type=text] {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+}
+
+.hidden{
+	display: none;
+}
+
+.btn{
+	width: 100%;
+	padding:1rem;
+	cursor: pointer;
+}
+
+.message{
+	font-family: roboto;
+	font-size:1.3rem;
+}
+
+
+.btn a:hover{
+background-color: #FF6347;
+}

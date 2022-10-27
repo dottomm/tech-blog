@@ -2,12 +2,16 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import Paginator from '../components/Paginator.astro';
+
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config';
 
 // Use Astro.glob() to fetch all posts, and then sort them by date.
 const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 	(a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
 );
+
+
 
 ---
 
@@ -156,7 +160,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 							<p>
 							  <button type="submit" class='btn'>Request Tech Tip</button>
 							</p>
-			</form>
+					</form>
 				</section>
 			
 		</main>

@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Schedule an Outlook Email"
 description: ""
-pubDate: "Oct 10 2022"
+pubDate: "Oct 11 2022"
 heroImage: "/tech-images/outlookSendLater.png"
 ---
 

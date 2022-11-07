@@ -125,44 +125,7 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 						</li>
 					))}
 				</ul>
-			</section>
-			<section id='form'>
-						<hr />
-						<summary>
-						<h2>Request a Tech Tip</h2>
-						<p class='message'>If there is a technology you would like to receive Tech Tips about, let Tom know by entering the request here in the form. </p>
-						</summary>
-						<form 
-							name="requestTip" 
-							method="POST" 
-							data-netlify="true" 
-							netlify-honeypot="bot-field" 
-							>
-							<p class="hidden">
-								<label>
-								  Don’t fill this out if you’re human: <input name="bot-field" /></label>
-								  </p>
-								
-							<input type="hidden" name="requestTip" value="contact">
-
-							<p>
-							  <label>Your Name: <input type="text" name="name" required/></label>
-							</p>
-							<!--
-								<p>
-							  <label>Your Email: <input type="email" name="email" /></label>
-							</p>
-							 -->
-							
-							<p>
-							  <label>Message: <textarea name="message" rows="8" required></textarea></label>
-							</p>
-							<p>
-							  <button type="submit" class='btn'>Request Tech Tip</button>
-							</p>
-					</form>
-				</section>
-			
+		
 		</main>
 		<Footer />
 	</body>

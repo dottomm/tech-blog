@@ -19,7 +19,7 @@ heroImage: "/tech-images/keeyboard.png"
 
 <h2>Bring up Spotlight to search for files and apps on your computer</h2>
 <p>Spotlight search is one of the Mac's most powerful features. Bring up the search bar and type whatever you want to search for, such as text messages, emails, documents, applications, notes, music, settings, movies or locations, this keyboard shortcut is at your fingertips:<span class='ital'> Command-spacebar</span>. </p>
-<img src='../tech-images/search.png' alt=''>
+<img src='../../tech-images/search.png' alt=''>
 
 <h2>Highlight the URL in your web browser to quickly share it</h2>
 <p>Usually, if you're sharing a web address you double-click in the search bar and then copy the selected text to your clipboard. However, there's a faster way to do this: use <span class='ital'>Command-L</span>. This will immediately highlight whatever is in the address bar in Safari, Chrome or another web browser, whether it's something you typed or the URL of the website you're on. You can then hit Command-C to copy it so you can paste it elsewhere.</p>

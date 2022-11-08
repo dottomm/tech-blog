@@ -28,8 +28,13 @@ Each of the Board View widgets has their own uses for project management.
     File
     Person
     Location
+    Link
+    Weather
+    Clock
+    Person
+    Tips
     
-<p></p>
+
 <h2>Collections</h2>
 <p>Collections are groupings of widgets (notes, calendars, goals etc.)That can be moved around the board together. </p>
 <p>In the image below is a collection of notes, goals, and files, a collection of necessary project files are all available in one place. </p>

@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "6 Mac Keyboard Shortcuts You Should Use All the Times"
 description: "By Nelson Aguilar published to CNET Nov. 8, 2022"
-pubDate: "Nov 8 2022"
+pubDate: "Nov 8, 2022"
 heroImage: "/tech-images/keeyboard.png"
 ---
 <h2>Mac keyboard shortcuts</h2>

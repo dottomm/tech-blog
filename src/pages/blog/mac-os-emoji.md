@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Quickly Access the Emoji Menu in macOS"
 description: "By Don Reisinger published to Tom's Guide December 19, 2016"
-pubDate: "Oct 20 2022"
+pubDate: "Oct 20, 2022"
 heroImage: "/tech-images/Emoji-Picker-on-macOS-Big-Sur.png"
 ---
 <p class='ital'>Originally By Don Reisinger published to Tom's Guide December 19, 2016</p>

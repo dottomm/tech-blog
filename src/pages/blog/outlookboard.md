@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "How to Use the Board View in Microsoft 365's Calendar"
 description: ""
-pubDate: "Nov 7 2022"
+pubDate: "Nov 7, 2022"
 heroImage: "/tech-images/outlook-board/board-view-1.jpg"
 ---
 

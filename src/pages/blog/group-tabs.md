@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Group Tabs on Your Browser"
 description: "Works on Chrome, Safari, Edge"
-pubDate: "Oct 10 2022"
+pubDate: "Oct 10, 2022"
 heroImage: "/tech-images/groupTabs.gif"
 ---
 <p class='ital'>This tip originally was posted by Suzzy Morris at NCOE</p>

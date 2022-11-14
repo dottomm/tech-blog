@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "How to use Outlook Scheduling Assistant"
 description: "Originally posted to Yammer by Suzy Morris July 2022"
-pubDate: "Oct 24 2022"
+pubDate: "Oct 24, 2022"
 heroImage: "/tech-images/Sched Asst Step 1 Mag no comment.gif"
 
 ---

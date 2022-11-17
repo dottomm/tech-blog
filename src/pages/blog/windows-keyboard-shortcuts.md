@@ -5,11 +5,9 @@ description: "https://www.techprate.com/computer/simple-computer-tips-tricks/"
 pubDate: "Nov 17, 2022"
 heroImage: "/tech-images/pc-keyboard.png"
 ---
-<h2>Windows keyboard shortcuts</h2>
+<h2>Windows Keyboard Shortcuts</h2>
 
 <p class='ital'>By pressing certain key combinations, you can do things that normally need a mouse, trackpad, or other input device.</p>
-
-
 
 <h2>Task Manager</h2>
 <p>To launch the task manager directly you can use <span class='ital'>Ctrl+Shift+Esc</span> which will open the task manager.</p>

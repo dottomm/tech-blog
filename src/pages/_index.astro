@@ -45,13 +45,11 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 				display:flex;
 				width: 100%;
 				text-decoration: none;
-				color:#222;
+				color:#fff;
 
 			}
 
-			.blog-links_list .blog_link:hover{
-				transform: scale(1.015);
-			}
+			
 			
 			.blog-links_list li{
 				min-height: 6em;
@@ -75,7 +73,8 @@ const posts = (await Astro.glob('./blog/*.{md,mdx}')).sort(
 			}
 
 			.blog-links_list li a:hover{
-				transform: scale (1.025);
+				transform: scale (1.035);
+				
 			}
 
 			form input {

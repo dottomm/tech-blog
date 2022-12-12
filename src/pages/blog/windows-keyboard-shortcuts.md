@@ -27,5 +27,8 @@ heroImage: "/tech-images/pc-keyboard.png"
 <h2>Switch between the Tabs</h2>
 <p>If you want to navigate from one tab to another using a keyboard shortcut key you can use <span class='ital'>Ctrl+Tab</span> and move forward from one tab to another. Similarly, if you want to navigate from one tab to another backward you can use <span class='ital'>Ctrl+Shift+Tab</span>.</p>
 
+<h2>Restore Closed Tabs</h2>
+<p>The quickest way to restore a single tab you closed by accident is with a keyboard shortcut. On a PC, use <span class='ital'>Ctrl+Shift+T</span>. On a Mac, use <span class='ital'>Cmd+Shift+T</span>. If you want to restore multiple tabs, or if you need a tab you closed a while ago, just keep pressing <span class='ital'>Ctrl+Shift+T</span> and your tabs will reappear in the order in which they were closed. <strong>Bonus: </strong> If you accidentally close your entire browser window altogether, just open a new Chrome window and the keyboard shortcut will reopen everything at once. This is a great trick for the times when a system update forces you to close your browser or restart your computer altogether.</p>
+
 <h2>To Show & Hide the Bookmark Bar:</h2>
 <p>Sometimes you have bookmarked some important site and not able to see the bookmark bar. To show and hide the bookmark bar you can use <span class='ital'>Ctrl+Shif+B</span> it works vice-versa.</p>

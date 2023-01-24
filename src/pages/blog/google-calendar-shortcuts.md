@@ -6,7 +6,8 @@ pubDate: "January 23, 2023"
 heroImage: "/tech-images/google-calendar.png"
 ---
 
-<p>Use keyboard shortcuts to quickly shift calendar view. Here are the shortcuts I find most useful.</p>
+<p>Use keyboard shortcuts to quickly shift calendar view.</p> 
+<h3>Here are the shortcuts I find most useful.</h3>
 
 <ul>
     <li>A = Switch to agenda view for a clean list of upcoming meetings.</li>
@@ -15,8 +16,8 @@ heroImage: "/tech-images/google-calendar.png"
     <li>Y = Look at the whole year. Helps me quickly see what day of the week a future event will fall on.</li>
 </ul>
 
-<p>CREATE AND FIND APPOINTMENTS QUICKLY
-Keyboard shortcuts are like a remote control for quick calendar actions. </p>
+<h3>CREATE AND FIND APPOINTMENTS QUICKLY</h3>
+<p>Keyboard shortcuts are like a remote control for quick calendar actions. </p>
 
 <ul>
     <li>Press C to create a new event quickly.
@@ -24,7 +25,7 @@ Keyboard shortcuts are like a remote control for quick calendar actions. </p>
     <li>Press / to open up a quick search.</li> 
 </ul>
 
-<p>PRINT YOUR CALENDAR TO CARRY </p>
+<h3>PRINT YOUR CALENDAR TO CARRY </h3>
 <p>Press Command-P (Mac) or Control-P (PC/Chromebook) to open a print menu. Then select among the following options:</p>
 <ul>
     <li>Adjust the date range to print just a day’s agenda, or a full week to have handy on a trip. </li>

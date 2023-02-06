@@ -17,7 +17,7 @@ heroImage: "/tech-images/zoom-option.png"
     <li>In the Advanced cloud recording settings section, select the check box next to Create audio transcript to enable it, then click Save to confirm the change.</li>
     </ol>
     <h2>Initiate Transcription</h2>
-<p><span class='ital'>Note:</span> When begining a meeting you would like to have automatically transcribed, you must select "Cloud Recording" to initiate automatic transcription</p>
+<p><span class='ital'>Note:</span> When begining a meeting you would like to have automatically transcribed, you must select "Cloud Recording" when choosing where to save recording.</p>
 <p>Audio transcription automatically transcribes the audio of a meeting or webinar that you record to the cloud. After this transcript is processed, it appears as a separate VTT file in the list of recorded meetings.</p>
 
 

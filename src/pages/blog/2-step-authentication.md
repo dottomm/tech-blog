@@ -2,7 +2,7 @@
 layout: "../../layouts/BlogPost.astro"
 title: "Enable Google 2-Step Verification "
 description: "As instructed by Rebecka Anderson TTSS"
-pubDate: "January 20, 2023"
+pubDate: "January 26, 2023"
 heroImage: "/tech-images/2-step-authenctication.png"
 
 ---

@@ -44,7 +44,7 @@ If you have more than one Google Account, you can sign in to multiple accounts a
 <li>In the top right, select your profile picture or initial.</li>
 <li>Select <span class='ital'>Sign out</span> or <span class='ital'>Sign out of all accounts</span>.</li>
 <li>Select <span class='ital'>Remove an account</span>.</li>
-<li>Next to an account, select Remove Remove'X'.</li>
+<li>Next to an account, select 'Remove'.</li>
 <li><span class='ital'>Optional: </span>If you've signed in on other browsers, like Firefox or Safari, repeat these steps for each.</li>
 </ol>
 

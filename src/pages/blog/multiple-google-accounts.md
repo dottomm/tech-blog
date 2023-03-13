@@ -39,7 +39,7 @@ If you have more than one Google Account, you can sign in to multiple accounts a
 ## Remove your account from the sign-in page
 
 <ol>
-<li>On your device, go to a browser where you're signed in, like Chrome./li>
+<li>On your device, go to a browser where you're signed in, like Chrome.</li>
 <li>Go to myaccount.google.com</li>
 <li>In the top right, select your profile picture or initial.</li>
 <li>Select <span class='ital'>Sign out</span> or <span class='ital'>Sign out of all accounts</span>.</li>

@@ -1,6 +1,6 @@
 ---
 layout: "../../layouts/BlogPost.astro"
-title: "Decluuter Your Mac with OS Tools "
+title: "Declutter Your Mac with OS Tools "
 description: "How to Decluuter Your Mac with OS Tools"
 pubDate: "April 27, 2023"
 heroImage: "/tech-images/apple-duo.webp"
@@ -16,7 +16,7 @@ Go to the Apple menu and choose <span class='ital'>About This Mac</span>. Click 
 
 Clicking on the '<span class='ital'>Manage</span>' button will present you a panel with built in tools that can help you manage how to optimize your storage.
 
-The left-side is a navigation through the tools available to you. The default display is the recommendations panel.
+The left-side is a navigation through the tools available to you. The default display is the <span class='ital'>recommendations panel</span>.
 
 <img src='../../tech-images/mac-manage.png' alt=''>
 

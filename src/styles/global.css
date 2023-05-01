@@ -108,7 +108,9 @@ h2{ color:var(--color-secondary);
 	letter-spacing: .32ch;
 }
 
-
+p{
+	margin-bottom: 1em;
+}
 
 ul {
 	list-style-type: none;

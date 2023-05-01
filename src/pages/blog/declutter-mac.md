@@ -9,7 +9,7 @@ heroImage: "/tech-images/apple-duo.webp"
 
 With Spring in the air and plans for cleaning our project documents, I thought it would be timely to discuss cleaning your computer to increase speed and efficiancy. 
 
-Right there in macOS there are tools to help you declutter your Mac. Before you install or buy extra utilities, there are these decluttering features on your Mac.
+In macOS there are tools to help you declutter your Mac. Before you install or buy extra utilities, there are these decluttering features on your Mac.
 
 Go to the Apple menu and choose <span class='ital'>About This Mac</span>. Click on the About This Mac tab. This will show you a list of connected storage, whether SSD or hard drives.
 <img src='../../tech-images/mac-storage-overview.png' alt=''>
@@ -36,4 +36,4 @@ The Documents tab default view is of the largest document files on your computer
 
 Each of these tabs can be sorted the same way as the applications. This is a great way to monitor where your computer storage is being consumed. Like the Applications tab; selecting one of these files triggers a button to delete the document.
 
-In addition to the Applications, and Documents. You can see how much space your mail, media like music and video and messages is taking up. 
+In addition to the Applications, and Documents. You can see how much space your <span class='ital'>mail</span>,  <span class='ital'>music</span>, or <span class='ital'>video</span> and <span class='ital'>messages</span> is taking up. 

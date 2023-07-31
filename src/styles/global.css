@@ -117,7 +117,7 @@ ul {
 	padding: unset;
 }
 ul li {
-	display: flex;
+	
 	font-weight: bold;
 }
 ul li time {
